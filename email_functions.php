@@ -115,8 +115,8 @@ function sendAdminNotification($order_data, $product_data)
         // Company details with logo
         '{{COMPANY_LOGO}}' => 'images/favicons/Urban_Designs.webp',
         '{{COMPANY_NAME}}' => 'The Urban Designs',
-        '{{ADMIN_URL}}' => 'https://yourwebsite.com/admin',
-        '{{WEBSITE_URL}}' => 'https://yourwebsite.com'
+        '{{ADMIN_URL}}' => 'https://theurbandesign.in/admin/login',
+        '{{WEBSITE_URL}}' => 'https://theurbandesign.in/'
     ]);
 
     // Debug: Log who we're sending to
