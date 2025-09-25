@@ -11,11 +11,16 @@
 
     # Rule 3: NEW RULE FOR PORTFOLIO
     RewriteRule ^portfolio/([^/]+)/?$ portfolio-details.php?slug=$1 [L,QSA]
-RewriteRule ^products/([a-zA-Z0-9-]+)/?$ product-details.php?slug=$1 [L,QSA]
-    # Rule 4: Internally rewrite requests to their .php equivalent
+    
+    # Rule 4: NEW RULE FOR PRODUCTS
+    RewriteRule ^products/([a-zA-Z0-9-]+)/?$ product-details.php?slug=$1 [L,QSA]
+    
+    # Rule 5: NEW RULE FOR CHECKOUT
+    RewriteRule ^checkout/([a-zA-Z0-9-]+)/?$ checkout.php?slug=$1 [L,QSA]
+    
+    # Rule 6: Internally rewrite requests to their .php equivalent
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^([^\.]+)$ $1.php [L]
-    # Rule 5: NEW RULE FOR CHECKOUT with quantity
-RewriteRule ^checkout/([a-zA-Z0-9-]+)/([0-9]+)/?$ checkout.php?slug=$1&qty=$2 [L,QSA]
+    
 </IfModule>
