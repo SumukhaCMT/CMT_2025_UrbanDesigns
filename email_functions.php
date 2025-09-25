@@ -3,7 +3,7 @@ function sendOrderConfirmationEmails($order_data, $product_data)
 {
     error_log("=== STARTING EMAIL PROCESS ===");
     error_log("Customer Email: " . $order_data['customer_email']);
-    error_log("Admin Email: sumuk911@gmail.com");
+    error_log("Admin Email: connect@theurbandesign.in");
 
     // Send customer invoice
     error_log("--- Sending customer invoice ---");
@@ -58,9 +58,9 @@ function sendCustomerInvoice($order_data, $product_data)
 
         // Update these with your company details
         '{{PHONE_NUMBER}}' => '+91 9886306672',
-        '{{SUPPORT_EMAIL}}' => 'support@yourcompany.com',
-        '{{COMPANY_ADDRESS}}' => 'Your Company Address',
-        '{{WEBSITE_URL}}' => 'https://yourwebsite.com'
+        '{{SUPPORT_EMAIL}}' => 'connect@theurbandesign.in',
+        '{{COMPANY_ADDRESS}}' => 'Kalluri Paradise, NO.401, 6th Cross Road, JP Nagar Phase 1, Bengaluru - 560078',
+        '{{WEBSITE_URL}}' => 'https://theurbandesign.in/'
     ]);
 
     // Debug: Log who we're sending to
@@ -120,10 +120,10 @@ function sendAdminNotification($order_data, $product_data)
     ]);
 
     // Debug: Log who we're sending to
-    error_log("Sending ADMIN notification to: sumuk911@gmail.com");
+    error_log("Sending ADMIN notification to: connect@theurbandesign.in");
 
     return sendEmailWithPHPMailer(
-        'sumuk911@gmail.com',  // Changed to your alternate email
+        'connect@theurbandesign.in',  // Changed to your alternate email
         'Admin',
         'New Order Received - #' . str_pad($order_data['id'], 8, '0', STR_PAD_LEFT),
         $html_content
@@ -141,15 +141,15 @@ function sendEmailWithPHPMailer($to_email, $to_name, $subject, $html_content)
     try {
         // Server settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'smtp.hostinger.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kirantoonz@gmail.com';
-        $mail->Password = 'giei srdw lipz zuzd';
+        $mail->Username = 'connect@theurbandesign.in';
+        $mail->Password = 'TheUrbanDesign@123';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('kirantoonz@gmail.com', 'The Urban Designs');
+        $mail->setFrom('connect@theurbandesign.in', 'The Urban Design');
         $mail->addAddress($to_email, $to_name);
 
         // Content

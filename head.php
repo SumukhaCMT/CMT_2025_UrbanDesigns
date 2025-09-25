@@ -145,7 +145,7 @@
     $page_canonical = $seo && !empty($seo['meta_canonical_link']) ? $seo['meta_canonical_link'] : $default_canonical;
     ?>
 
-    <base href="/Urban_Designs/">
+    <base href="https://theurbandesign.in/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">

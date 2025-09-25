@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /Urban_Designs/
+    RewriteBase /
 
     # Rule 1: Externally redirect "/index.php" to "/"
     RewriteCond %{THE_REQUEST} /index(\.php)?\s [NC]

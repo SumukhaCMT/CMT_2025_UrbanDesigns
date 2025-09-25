@@ -1,5 +1,5 @@
 <?php
-$StoreURL = 'http://localhost/Urban_Designs/';
+$StoreURL = 'https://theurbandesign.in/';
 ?>
 <meta charset="utf-8" />
 <title>The Urban Designs Admin</title>
