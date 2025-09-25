@@ -919,8 +919,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                             <?php if (isset($projects[0])): ?>
                                 <div class="featured-imagebox featured-imagebox-post style1">
                                     <div class="featured-thumbnail">
-                                        <a
-                                            href="portfolio-details.php?slug=<?php echo htmlspecialchars($projects[0]['project_slug']); ?>">
+                                        <a href="portfolio/<?php echo htmlspecialchars($projects[0]['project_slug']); ?>">
                                             <img class="img-fluid" width="1120" height="780"
                                                 src="uploads/portfolio/<?php echo htmlspecialchars($projects[0]['list_image']); ?>"
                                                 alt="<?php echo htmlspecialchars($projects[0]['project_title']); ?>">
@@ -928,7 +927,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                                     </div>
                                     <div class="featured-content">
                                         <div class="featured-title">
-                                            <h3><a href="portfolio-details.php?slug=<?php echo htmlspecialchars($projects[0]['project_slug']); ?>"
+                                            <h3><a href="portfolio/<?php echo htmlspecialchars($projects[0]['project_slug']); ?>"
                                                     tabindex="0"><?php echo htmlspecialchars($projects[0]['category_name']); ?></a>
                                             </h3>
                                         </div>
@@ -946,7 +945,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                                         <div class="featured-imagebox featured-imagebox-post style1">
                                             <div class="featured-thumbnail">
                                                 <a
-                                                    href="portfolio-details.php?slug=<?php echo htmlspecialchars($projects[1]['project_slug']); ?>">
+                                                    href="portfolio/<?php echo htmlspecialchars($projects[1]['project_slug']); ?>">
                                                     <img class="img-fluid" width="1120" height="780"
                                                         src="uploads/portfolio/<?php echo htmlspecialchars($projects[1]['list_image']); ?>"
                                                         alt="<?php echo htmlspecialchars($projects[1]['project_title']); ?>">
@@ -954,7 +953,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                                             </div>
                                             <div class="featured-content">
                                                 <div class="featured-title">
-                                                    <h3><a href="portfolio-details.php?slug=<?php echo htmlspecialchars($projects[1]['project_slug']); ?>"
+                                                    <h3><a href="portfolio/<?php echo htmlspecialchars($projects[1]['project_slug']); ?>"
                                                             tabindex="0"><?php echo htmlspecialchars($projects[1]['category_name']); ?></a>
                                                     </h3>
                                                 </div>
@@ -971,7 +970,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                                         <div class="featured-imagebox featured-imagebox-post style1">
                                             <div class="featured-thumbnail">
                                                 <a
-                                                    href="portfolio-details.php?slug=<?php echo htmlspecialchars($projects[2]['project_slug']); ?>">
+                                                    href="portfolio/<?php echo htmlspecialchars($projects[2]['project_slug']); ?>">
                                                     <img class="img-fluid" width="1120" height="780"
                                                         src="uploads/portfolio/<?php echo htmlspecialchars($projects[2]['list_image']); ?>"
                                                         alt="<?php echo htmlspecialchars($projects[2]['project_title']); ?>">
@@ -979,7 +978,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                                             </div>
                                             <div class="featured-content">
                                                 <div class="featured-title">
-                                                    <h3><a href="portfolio-details.php?slug=<?php echo htmlspecialchars($projects[2]['project_slug']); ?>"
+                                                    <h3><a href="portfolio/<?php echo htmlspecialchars($projects[2]['project_slug']); ?>"
                                                             tabindex="0"><?php echo htmlspecialchars($projects[2]['category_name']); ?></a>
                                                     </h3>
                                                 </div>

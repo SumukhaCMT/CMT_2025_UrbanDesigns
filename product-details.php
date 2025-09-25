@@ -222,7 +222,7 @@ $related_products = $related_stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <span><a title="Go to Home." href="./" class="home"><i
                                                 class="themifyicon ti-home"></i>&nbsp;&nbsp;Home</a></span>
                                     <span class="ttm-bread-sep">&nbsp; / &nbsp;</span>
-                                    <span><a href="products.php">Products</a></span>
+                                    <span><a href="products">Products</a></span>
                                     <span class="ttm-bread-sep">&nbsp; / &nbsp;</span>
                                     <span><?php echo htmlspecialchars($product['name']); ?></span>
                                 </div>
@@ -316,7 +316,7 @@ $related_products = $related_stmt->fetchAll(PDO::FETCH_ASSOC);
                                 <div class="product-actions">
 
                                     <a id="buy-now-btn"
-                                        href="checkout.php?slug=<?php echo htmlspecialchars($product['slug']); ?>&qty=1"
+                                        href="checkout/<?php echo htmlspecialchars($product['slug']); ?>?qty=1"
                                         class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor">Buy
                                         Now</a>
                                 </div>
@@ -381,7 +381,7 @@ $related_products = $related_stmt->fetchAll(PDO::FETCH_ASSOC);
                 const qty = document.getElementById('quantity').value;
                 const slug = "<?php echo htmlspecialchars($product['slug']); ?>";
                 const buyNowBtn = document.getElementById('buy-now-btn');
-                buyNowBtn.href = `checkout.php?slug=${slug}&qty=${qty}`;
+                buyNowBtn.href = `checkout/${slug}?qty=${qty}`;
             }
             function increaseQuantity() {
                 const qty = document.getElementById('quantity');

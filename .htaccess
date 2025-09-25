@@ -16,5 +16,6 @@ RewriteRule ^products/([a-zA-Z0-9-]+)/?$ product-details.php?slug=$1 [L,QSA]
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^([^\.]+)$ $1.php [L]
-    
+    # Rule 5: NEW RULE FOR CHECKOUT with quantity
+RewriteRule ^checkout/([a-zA-Z0-9-]+)/([0-9]+)/?$ checkout.php?slug=$1&qty=$2 [L,QSA]
 </IfModule>
