@@ -750,7 +750,7 @@ $products = $products_stmt->fetchAll(PDO::FETCH_ASSOC);
 
             // Redirect to checkout with default quantity 1
             setTimeout(() => {
-                window.location.href = `checkout.php?slug=${encodeURIComponent(slug)}&qty=1`;
+                window.location.href = `checkout/${encodeURIComponent(slug)}?qty=1`;
             }, 500);
         }
 

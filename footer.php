@@ -132,15 +132,14 @@ function limit_words($text, $word_limit)
                                     <ul class="widget-post ttm-recent-post-list mt-15">
                                         <?php foreach ($recent_projects as $project): ?>
                                             <li>
-                                                <a
-                                                    href="portfolio-details.php?slug=<?php echo htmlspecialchars($project['slug'] ?? ''); ?>">
+                                                <a href="portfolio/<?php echo htmlspecialchars($project['slug'] ?? ''); ?>">
                                                     <img width="70" height="70"
                                                         src="uploads/portfolio/<?php echo htmlspecialchars($project['list_image'] ?? ''); ?>"
                                                         alt="<?php echo htmlspecialchars($project['project_title'] ?? 'Project'); ?>">
                                                 </a>
-                                                <a
-                                                    href="portfolio-details.php?slug=<?php echo htmlspecialchars($project['slug'] ?? ''); ?>">
+                                                <a href="portfolio/<?php echo htmlspecialchars($project['slug'] ?? ''); ?>">
                                                     <?php echo htmlspecialchars($project['project_title'] ?? ''); ?>
+                                                </a>
                                                 </a>
                                                 <p><?php echo htmlspecialchars(limit_words($project['short_description'], 6)); ?>
                                                 </p>
