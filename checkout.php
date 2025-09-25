@@ -257,11 +257,11 @@ if (!$product) {
                                 </div>
                             </div>
                             <div class="mt-4 d-flex align-items-center gap-3 flex-wrap">
-                                <a href="product-details.php?slug=<?php echo htmlspecialchars($product['slug']); ?>"
+                                <a href="products/<?php echo htmlspecialchars($product['slug']); ?>"
                                     class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-btn-color-dark">
                                     View Product
                                 </a>
-                                <a href="products.php"
+                                <a href="products"
                                     class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-btn-color-dark">
                                     Continue Shopping
                                 </a>
