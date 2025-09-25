@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /Urban_Designs/
+
+    # Rule 1: Externally redirect "/index.php" to "/"
+    RewriteCond %{THE_REQUEST} /index(\.php)?\s [NC]
+    RewriteRule ^index(\.php)?$ ./ [R=301,L]
+
+    # Rule 2: Specific rewrite for services
+    RewriteRule ^services/([^/]+)/?$ service-details.php?surl=$1 [L,QSA]
+
+    # Rule 3: NEW RULE FOR PORTFOLIO
+    RewriteRule ^portfolio/([^/]+)/?$ portfolio-details.php?slug=$1 [L,QSA]
+RewriteRule ^products/([a-zA-Z0-9-]+)/?$ product-details.php?slug=$1 [L,QSA]
+    # Rule 4: Internally rewrite requests to their .php equivalent
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^\.]+)$ $1.php [L]
+    
+</IfModule>
