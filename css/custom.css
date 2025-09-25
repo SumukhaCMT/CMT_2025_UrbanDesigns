@@ -1,0 +1,386 @@
+/* .site-branding {
+  height: 150px;
+} */
+
+.ttm-page-title-row-inner {
+  padding: 260px 0 125px;
+}
+
+.layer-content {
+  position: relative;
+  z-index: 1;
+}
+
+.spacing-129 {
+  padding: 47px 10px 55px 55px;
+}
+
+
+.spacing-139 {
+  padding: 54px 60px 0px 60px;
+}
+
+.section-title h3 {
+  color: #ea8031;
+}
+
+.client-box .client-thumbnail img {
+  opacity: 1;
+}
+
+.ttm-row.services-section_3 {
+  padding: 55px 0 95px
+}
+
+.ttm-progress-bar.style1 .progress-bar-inner {
+  background: white;
+}
+
+.widget_info .widget_desc,
+.widget_info .widget_desc a {
+  color: #ea8031;
+}
+
+.featured-icon-box.style15 {
+  box-shadow: 2px 0px 20px grey;
+}
+
+
+.portfolio-image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 125%;
+
+  overflow: hidden;
+}
+
+.portfolio-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* This is the magic part that crops the image */
+  object-position: center;
+  /* Ensures the image is centered */
+}
+
+/* Container for the main project image (3:2 aspect ratio) */
+.detail-main-image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.66%;
+  /* (800 / 1200) * 100 */
+  overflow: hidden;
+  background-color: #f0f0f0;
+  /* Light gray background for loading */
+}
+
+/* Container for the gallery images (adjust aspect ratio if needed) */
+.detail-gallery-image-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 105%;
+  /* (610 / 580) * 100 */
+  overflow: hidden;
+  background-color: #f0f0f0;
+}
+
+/* Generic rule to make images inside these containers cover the area */
+.detail-main-image-container img,
+.detail-gallery-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.quick-contact {
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+  width: 60px;
+  z-index: 9999;
+}
+
+.quick-contact img {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  width: 50px;
+  z-index: 9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-icon-wrapper {
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 12px;
+  }
+
+  .default-icon {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-icon-wrapper {
+    width: 35px !important;
+    height: 35px !important;
+    margin-right: 10px;
+  }
+
+  .default-icon {
+    font-size: 14px !important;
+  }
+}
+
+/* ====================================================================
+   ENHANCED MOBILE STICKY HEADER STYLES 
+   ==================================================================== */
+
+/* Mobile Sticky Header - Tablets and below (max-width: 1199px) */
+@media all and (max-width: 1199px) {
+
+  /* Enhanced Fixed Header for Mobile */
+  .fixed-header {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    /* Higher z-index for mobile */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Add shadow for better visibility */
+    transition: all 0.3s ease;
+    /* Smooth transition */
+  }
+
+  /* Mobile Sticky Header Style 01 */
+  header.ttm-header-style-01 .ttm-stickable-header.fixed-header {
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    padding-left: 15px !important;
+    /* Reduce padding for mobile */
+    padding-right: 15px !important;
+    height: 80px !important;
+    /* Increased height to accommodate larger logo */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Mobile Sticky Header Style 02 */
+  header.ttm-header-style-02 .ttm-stickable-header.fixed-header {
+    z-index: 9999 !important;
+    background-color: #ffffff !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    height: 60px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Mobile Logo in Sticky Header */
+  .ttm-stickable-header.fixed-header #logo-img {
+    max-height: 55px !important;
+    /* Increased logo size for sticky mobile header */
+    width: auto !important;
+    height: auto !important;
+    transition: all 0.3s ease;
+  }
+
+  /* Mobile Navigation in Sticky Header */
+  .ttm-stickable-header.fixed-header .site-navigation {
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+
+  /* Mobile Hamburger Menu in Sticky Header */
+  .ttm-stickable-header.fixed-header .menubar {
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+
+  /* Ensure proper positioning for site branding */
+  .ttm-stickable-header.fixed-header .site-branding {
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Mobile menu links in sticky header */
+  .ttm-stickable-header.fixed-header .site-navigation ul.menu>li>a {
+    color: #000000 !important;
+    /* Black text on white background */
+    padding: 22px 10px !important;
+    /* Adjusted padding for larger mobile header */
+  }
+
+  /* Hide extra elements in mobile sticky header */
+  .ttm-stickable-header.fixed-header .header_extra,
+  .ttm-stickable-header.fixed-header .widget_info {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Phone sizes (max-width: 767px) */
+@media (max-width: 767px) {
+
+  /* Further optimize for phones */
+  .ttm-stickable-header.fixed-header {
+    height: 60px !important;
+    /* Increased height for larger logo */
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .ttm-stickable-header.fixed-header #logo-img {
+    max-height: 50px !important;
+    /* Increased logo size for phones */
+  }
+
+  .ttm-stickable-header.fixed-header .site-navigation,
+  .ttm-stickable-header.fixed-header .menubar,
+  .ttm-stickable-header.fixed-header .site-branding {
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+
+  .ttm-stickable-header.fixed-header .site-navigation ul.menu>li>a {
+    padding: 20px 8px !important;
+    /* Adjusted padding for larger phone header */
+  }
+}
+
+/* Small phone sizes (max-width: 575px) */
+@media (max-width: 575px) {
+
+  .ttm-stickable-header.fixed-header {
+    height: 70px !important;
+
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .ttm-stickable-header.fixed-header #logo-img {
+    max-height: 70px !important;
+
+
+  }
+
+  .ttm-stickable-header.fixed-header .site-navigation,
+  .ttm-stickable-header.fixed-header .menubar,
+  .ttm-stickable-header.fixed-header .site-branding {
+    height: 80px !important;
+    line-height: 55px !important;
+  }
+}
+
+@media all and (max-width: 1199px) {
+
+  body.fixed-header-active {
+    padding-top: 65px !important;
+
+  }
+}
+
+#logo-img {
+  padding-left: 15px !important;
+}
+
+@media (max-width: 767px) {
+  body.fixed-header-active {
+    padding-top: 60px !important;
+
+  }
+}
+
+@media (max-width: 575px) {
+  body.fixed-header-active {
+    padding-top: 55px !important;
+
+  }
+}
+
+html.fixed-header-active {
+  scroll-behavior: smooth;
+}
+
+/* Animation for sticky header appearance */
+@keyframes stickyHeaderSlideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.ttm-stickable-header.fixed-header {
+  animation: stickyHeaderSlideDown 0.3s ease-out;
+}
+
+/* ====Products Mobile==== */
+
+/* MOBILE RESPONSIVE CSS - SMALL CARDS WITH BREATHING SPACE */
+
+/* OVERRIDE EXISTING MOBILE RULES */
+@media (max-width: 768px) {
+
+  /* Single column with small cards and side margins */
+  .products-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    padding: 0 2rem !important;
+    /* Side breathing space */
+    max-width: 350px !important;
+    /* Keep cards small */
+    margin: 0 auto !important;
+    /* Center the grid */
+  }
+
+  /* Make entire card clickable */
+  .product-card {
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+  }
+
+  .product-card:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .products-grid {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+    padding: 0 1.5rem !important;
+    /* Side breathing space */
+    max-width: 320px !important;
+    /* Keep cards small */
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 360px) {
+  .products-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    padding: 0 1rem !important;
+    /* Side breathing space */
+    max-width: 280px !important;
+    /* Keep cards small */
+    margin: 0 auto !important;
+  }
+}
+
+/* JavaScript for clickable cards - Add this script tag to your products.php */

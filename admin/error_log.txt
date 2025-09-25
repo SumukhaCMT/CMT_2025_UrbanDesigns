@@ -1,0 +1,461 @@
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Warning:  Undefined array key "point_1" in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 20
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 20
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Warning:  Undefined array key "point_2" in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 21
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 21
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Warning:  Undefined array key "point_3" in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 22
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 22
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Warning:  Undefined array key "point_4" in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 23
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 23
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Warning:  Undefined array key "point_5" in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 24
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 24
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Warning:  Undefined array key "point_6" in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 25
+[02-Aug-2025 12:04:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/about-us on line 25
+[02-Aug-2025 12:18:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/founder-details.php on line 28
+[02-Aug-2025 12:18:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/founder-details.php on line 29
+[02-Aug-2025 12:18:13 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/founder-details.php on line 30
+[02-Aug-2025 12:23:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/founder-details.php on line 28
+[02-Aug-2025 12:23:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/founder-details.php on line 29
+[02-Aug-2025 12:23:12 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/founder-details.php on line 30
+[04-Aug-2025 11:14:55 Europe/Berlin] PHP Warning:  move_uploaded_file(../assets/img/service/service-kavach-1754298895.png): Failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/edit-service.php on line 22
+[04-Aug-2025 11:14:55 Europe/Berlin] PHP Warning:  move_uploaded_file(): Unable to move &quot;/Applications/XAMPP/xamppfiles/temp/phpguG6ay&quot; to &quot;../assets/img/service/service-kavach-1754298895.png&quot; in /Applications/XAMPP/xamppfiles/htdocs/PurpleIT/admin/edit-service.php on line 22
+[10-Aug-2025 15:34:59 Europe/Berlin] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/contact-enquiries.php on line 5
+[10-Aug-2025 15:34:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/Applications/XAMPP/xamppfiles/lib/php') in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/contact-enquiries.php:5
+Stack trace:
+#0 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/contact-enquiries.php on line 5
+[11-Aug-2025 09:10:11 Europe/Berlin] PHP Warning:  Undefined array key "years_experience" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[11-Aug-2025 09:10:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[11-Aug-2025 09:10:11 Europe/Berlin] PHP Warning:  Undefined array key "happy_clients" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[11-Aug-2025 09:10:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[11-Aug-2025 09:10:11 Europe/Berlin] PHP Warning:  Undefined array key "successful_projects" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[11-Aug-2025 09:10:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Warning:  Undefined array key "point_1" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Warning:  Undefined array key "point_2" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Warning:  Undefined array key "point_3" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Warning:  Undefined array key "point_4" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Warning:  Undefined array key "point_5" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Warning:  Undefined array key "point_6" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:41:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Warning:  Undefined array key "point_1" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Warning:  Undefined array key "point_2" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Warning:  Undefined array key "point_3" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Warning:  Undefined array key "point_4" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Warning:  Undefined array key "point_5" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Warning:  Undefined array key "point_6" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:42:53 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Warning:  Undefined array key "point_1" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Warning:  Undefined array key "point_2" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Warning:  Undefined array key "point_3" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Warning:  Undefined array key "point_4" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Warning:  Undefined array key "point_5" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Warning:  Undefined array key "point_6" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:43:30 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Warning:  Undefined array key "point_1" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Warning:  Undefined array key "point_2" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Warning:  Undefined array key "point_3" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Warning:  Undefined array key "point_4" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Warning:  Undefined array key "point_5" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Warning:  Undefined array key "point_6" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:51:25 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Warning:  Undefined array key "point_1" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 20
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Warning:  Undefined array key "point_2" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 21
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Warning:  Undefined array key "point_3" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 22
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Warning:  Undefined array key "point_4" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 23
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Warning:  Undefined array key "point_5" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 24
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Warning:  Undefined array key "point_6" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 09:51:41 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 25
+[11-Aug-2025 12:38:18 Europe/Berlin] PHP Warning:  Undefined array key "years_experience" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[11-Aug-2025 12:38:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[11-Aug-2025 12:38:18 Europe/Berlin] PHP Warning:  Undefined array key "happy_clients" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[11-Aug-2025 12:38:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[11-Aug-2025 12:38:18 Europe/Berlin] PHP Warning:  Undefined array key "successful_projects" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[11-Aug-2025 12:38:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[11-Aug-2025 18:39:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-product.php on line 193
+[11-Aug-2025 18:39:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-product.php on line 197
+[11-Aug-2025 18:39:20 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-product.php on line 201
+[11-Aug-2025 18:40:01 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-product.php on line 193
+[11-Aug-2025 18:40:01 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-product.php on line 197
+[11-Aug-2025 18:40:01 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-product.php on line 201
+[11-Aug-2025 19:32:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[11-Aug-2025 19:32:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[11-Aug-2025 19:32:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[11-Aug-2025 19:32:23 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:27:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:27:59 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:28:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:28:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:28:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:28:12 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:32:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:32:26 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:33:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[12-Aug-2025 10:33:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[14-Aug-2025 08:06:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[14-Aug-2025 08:06:42 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[14-Aug-2025 09:09:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[14-Aug-2025 09:09:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[19-Aug-2025 17:26:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[19-Aug-2025 17:26:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[19-Aug-2025 18:56:58 Europe/Berlin] PHP Warning:  Undefined array key "years_experience" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[19-Aug-2025 18:56:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[19-Aug-2025 18:56:58 Europe/Berlin] PHP Warning:  Undefined array key "happy_clients" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[19-Aug-2025 18:56:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[19-Aug-2025 18:56:58 Europe/Berlin] PHP Warning:  Undefined array key "successful_projects" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[19-Aug-2025 18:56:58 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[19-Aug-2025 18:57:25 Europe/Berlin] PHP Warning:  Undefined array key "years_experience" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[19-Aug-2025 18:57:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[19-Aug-2025 18:57:25 Europe/Berlin] PHP Warning:  Undefined array key "happy_clients" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[19-Aug-2025 18:57:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[19-Aug-2025 18:57:25 Europe/Berlin] PHP Warning:  Undefined array key "successful_projects" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[19-Aug-2025 18:57:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[28-Aug-2025 06:41:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:09 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:10 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:11 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 06:41:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 327
+[28-Aug-2025 06:41:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 335
+[28-Aug-2025 06:41:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/about-us on line 341
+[28-Aug-2025 07:43:36 Europe/Berlin] PHP Warning:  Undefined array key "years_experience" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[28-Aug-2025 07:43:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 79
+[28-Aug-2025 07:43:37 Europe/Berlin] PHP Warning:  Undefined array key "happy_clients" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[28-Aug-2025 07:43:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 85
+[28-Aug-2025 07:43:37 Europe/Berlin] PHP Warning:  Undefined array key "successful_projects" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[28-Aug-2025 07:43:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 91
+[28-Aug-2025 08:00:10 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'years_experience' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 23
+[28-Aug-2025 08:03:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'years_experience' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 23
+[28-Aug-2025 08:03:24 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'years_experience' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 23
+[28-Aug-2025 08:03:32 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'years_experience' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 23
+[28-Aug-2025 08:04:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'years_experience' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php:23
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 23
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Warning:  Undefined array key "projects_completed" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 14
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 14
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Warning:  Undefined array key "client_satisfaction_rate" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 15
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 15
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Warning:  Undefined array key "sq_ft_transformed" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 16
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 16
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Warning:  Undefined array key "years_of_combined_team_experience" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 17
+[28-Aug-2025 08:07:05 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/stats.php on line 17
+[28-Aug-2025 08:46:37 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-services on line 152
+[28-Aug-2025 08:47:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-service.php on line 179
+[28-Aug-2025 08:47:40 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-service.php on line 181
+[28-Aug-2025 17:08:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[28-Aug-2025 17:08:29 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[28-Aug-2025 18:54:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[28-Aug-2025 18:54:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[28-Aug-2025 18:55:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[28-Aug-2025 18:55:04 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[30-Aug-2025 08:28:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[30-Aug-2025 08:28:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[01-Sep-2025 08:13:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[01-Sep-2025 08:13:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[01-Sep-2025 08:13:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[01-Sep-2025 08:13:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[01-Sep-2025 08:16:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[01-Sep-2025 08:16:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[03-Sep-2025 17:22:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[03-Sep-2025 17:22:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[03-Sep-2025 18:13:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[03-Sep-2025 18:13:19 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/view-products.php on line 180
+[07-Sep-2025 12:56:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:00:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:05:38 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:05:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:05:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:05:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:05:40 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:05:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'urbandeisgns.trusted_by_img' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php:11
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 11
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:06 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:07 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:08 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 111
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 112
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 113
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Warning:  Undefined array key "img_name" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 116
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Warning:  Undefined array key "img_alt" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 117
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Warning:  Undefined array key "img_title" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:15:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/trusted-by-img.php on line 118
+[07-Sep-2025 13:22:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagewebp() in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php:87
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php(37): convertToWebP(Array, '../uploads/part...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php on line 87
+[07-Sep-2025 13:30:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagewebp() in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php:87
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php(37): convertToWebP(Array, '../uploads/part...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php on line 87
+[07-Sep-2025 13:32:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagewebp() in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php:87
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php(37): convertToWebP(Array, '../uploads/part...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-trusted-by-img.php on line 87
+[08-Sep-2025 09:05:18 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:05:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:05:18 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:05:18 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:07:25 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:07:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:07:25 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:07:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:07:28 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:07:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:07:28 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:07:28 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:09:46 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:09:46 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:09:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:09:46 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:09:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:09:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 562
+[08-Sep-2025 09:12:21 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:21 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:21 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:21 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:25 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:25 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:25 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:25 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:46 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:46 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:46 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:46 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:47 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:12:48 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:14:05 Europe/Berlin] PHP Warning:  Undefined array key "footer_content" in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 39
+[08-Sep-2025 09:14:05 Europe/Berlin] PHP Warning:  Undefined variable $alternate_email in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:14:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 318
+[08-Sep-2025 09:14:05 Europe/Berlin] PHP Warning:  Undefined variable $alternate_phone in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[08-Sep-2025 09:14:05 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit_site_settings.php on line 334
+[10-Sep-2025 11:26:19 Europe/Berlin] PHP Warning:  imagejpeg(assets/images/team/swswsw-68c1443b9d830.jpg): Failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/add-team-member.php on line 80
+[10-Sep-2025 11:28:36 Europe/Berlin] PHP Warning:  imagejpeg(assets/images/team/swswsw-68c1443b9d830-23.jpg): Failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-team-member.php on line 133
+[10-Sep-2025 12:06:16 Europe/Berlin] PHP Warning:  imagejpeg(assets/images/team/swswsw-68c1443b9d830-23-23.jpg): Failed to open stream: Permission denied in /Applications/XAMPP/xamppfiles/htdocs/Urban_Designs/admin/edit-team-member.php on line 171

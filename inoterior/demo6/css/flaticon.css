@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon3a73.ttf?9cd7f324300146157da55d34058bd079") format("truetype"),
+url("../fonts/flaticon3a73.woff?9cd7f324300146157da55d34058bd079") format("woff"),
+url("../fonts/flaticon3a73.woff2?9cd7f324300146157da55d34058bd079") format("woff2"),
+url("../fonts/flaticon3a73.html?9cd7f324300146157da55d34058bd079#iefix") format("embedded-opentype"),
+url("../fonts/flaticon3a73-2.html?9cd7f324300146157da55d34058bd079#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, 
+i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+      font-style: normal;
+}
+
+.flaticon-workspace:before {
+    content: "\f101";
+}
+.flaticon-living-room:before {
+    content: "\f102";
+}
+.flaticon-staircase:before {
+    content: "\f103";
+}
+.flaticon-blueprint:before {
+    content: "\f104";
+}
+.flaticon-home-decoration:before {
+    content: "\f105";
+}
+.flaticon-decorating:before {
+    content: "\f106";
+}
+.flaticon-door:before {
+    content: "\f107";
+}
+.flaticon-stairs:before {
+    content: "\f108";
+}
+.flaticon-interior-design:before {
+    content: "\f109";
+}
+.flaticon-wardrobe:before {
+    content: "\f10a";
+}
+.flaticon-windows:before {
+    content: "\f10b";
+}
+.flaticon-door-1:before {
+    content: "\f10c";
+}
+.flaticon-bed:before {
+    content: "\f10d";
+}
+.flaticon-bed-1:before {
+    content: "\f10e";
+}
+.flaticon-interior-design-1:before {
+    content: "\f10f";
+}
+.flaticon-apartment:before {
+    content: "\f110";
+}
+.flaticon-interior-design-2:before {
+    content: "\f111";
+}
+.flaticon-french-doors:before {
+    content: "\f112";
+}
+.flaticon-door-2:before {
+    content: "\f113";
+}
+.flaticon-architecture-and-city:before {
+    content: "\f114";
+}
+.flaticon-play-button:before {
+    content: "\f115";
+}
+.flaticon-call:before {
+    content: "\f116";
+}
+.flaticon-destination:before {
+    content: "\f117";
+}
+.flaticon-delivery:before {
+    content: "\f118";
+}
+.flaticon-navigation:before {
+    content: "\f119";
+}
+.flaticon-email:before {
+    content: "\f11a";
+}
+.flaticon-call-1:before {
+    content: "\f11b";
+}
+.flaticon-wall-clock:before {
+    content: "\f11c";
+}
+.flaticon-clock:before {
+    content: "\f11d";
+}
+.flaticon-clock-1:before {
+    content: "\f11e";
+}
+.flaticon-work-done:before {
+    content: "\f11f";
+}

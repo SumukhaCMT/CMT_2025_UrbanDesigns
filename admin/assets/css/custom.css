@@ -1,0 +1,17 @@
+.selected-image {
+  border: 2px solid green;
+}
+
+.gallery-item {
+  cursor: pointer;
+  position: relative;
+}
+
+th {
+  width: auto;
+}
+
+tr>td {
+  width: auto;
+}
+
