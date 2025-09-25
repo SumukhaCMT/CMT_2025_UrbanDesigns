@@ -29,8 +29,8 @@
                         <div class="col-12">
                             <i class="fa fa-check-circle fa-5x text-success"></i>
                             <h2 class="mt-4">Thank You For Your Order!</h2>
-                            <p class="lead">We have received your order and are getting it ready for shipment.</p>
-                            <p>A confirmation email has been sent to you. You can expect your delivery within 5-7
+                            <p class="lead">We have received your order and are getting it ready for it.</p>
+                            <p>You can expect your delivery within 5-7
                                 business days.</p>
                             <a href="products.php"
                                 class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor mt-4">Continue

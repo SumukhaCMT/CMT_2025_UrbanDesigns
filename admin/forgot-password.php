@@ -47,15 +47,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // --- Server Settings ---
             $mail->SMTPDebug = 0; // Set to 0 for production use
             $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
+            $mail->Host = 'smtp.hostinger.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'sumukha.n@codemythought.com';  // Your full Gmail/Google Workspace address
-            $mail->Password = 'aipi baqc uhxt jmzs';           // Your Google App Password
+            $mail->Username = 'connect@theurbandesign.in';  // Your full Gmail/Google Workspace address
+            $mail->Password = 'TheUrbanDesign@123';           // Your Google App Password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
             // --- Recipients ---
-            $mail->setFrom('sumukha.n@codemythought.com', 'The Urban Design');
+            $mail->setFrom('connect@theurbandesign.in', 'The Urban Design');
             $mail->addAddress($email);
 
             // --- Content ---

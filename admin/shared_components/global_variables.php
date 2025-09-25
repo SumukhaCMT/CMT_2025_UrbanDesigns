@@ -1,2 +1,2 @@
 <?php
-$admin_store_ulr = "http://localhost/sw/admin/login.php";
+$admin_store_ulr = "https://theurbandesign.in/admin/login.php";

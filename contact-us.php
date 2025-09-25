@@ -129,17 +129,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             try {
                 // Server settings
                 $mail->isSMTP();
-                $mail->Host = 'smtp.gmail.com'; // Set your SMTP server
+                $mail->Host = 'smtp.hostinger.com'; // Set your SMTP server
                 $mail->SMTPAuth = true;
-                $mail->Username = 'kirantoonz@gmail.com'; // Your email
-                $mail->Password = 'giei srdw lipz zuzd';    // Your app password
+                $mail->Username = 'connect@theurbandesign.in'; // Your email
+                $mail->Password = 'TheUrbanDesign@123';    // Your app password
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port = 587;
 
                 // Recipients
                // Recipients - Use your admin email as sender with a clear identifier
-$mail->setFrom('kirantoonz@gmail.com', 'The Urban Designs Contact Form');
-$mail->addAddress('kirantoonz@gmail.com', 'Admin'); // Admin email
+$mail->setFrom('connect@theurbandesign.in', 'The Urban Design Contact Form');
+$mail->addAddress('connect@theurbandesign.in', 'Admin'); // Admin email
 $mail->addReplyTo($email, $full_name); // When admin replies, it goes to the user
 
                 // Content

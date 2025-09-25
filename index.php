@@ -82,16 +82,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['contact_form_index'])
                 try {
                     // Server settings
                     $mail->isSMTP();
-                    $mail->Host = 'smtp.gmail.com';
+                    $mail->Host = 'smtp.hostinger.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'sumukha.n@codemythought.com'; // Your email
-                    $mail->Password = 'swck fmji drio iyqc';    // Your app password
+                    $mail->Username = 'connect@theurbandesign.in'; // Your email
+                    $mail->Password = 'TheUrbanDesign@123';    // Your app password
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
 
                     // Recipients
                     $mail->setFrom($email, $name);
-                    $mail->addAddress('sumukha.n@codemythought.com', 'Admin'); // Admin email
+                    $mail->addAddress('connect@theurbandesign.in', 'Admin'); // Admin email
                     $mail->addReplyTo($email, $name);
 
                     // Content
