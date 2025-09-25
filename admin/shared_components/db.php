@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$dbname = "urbandeisgns";  // must match your SQL dump
-$username = "root";
-$password = "";
+$dbname = "u242005246_urbandesign";  // must match your SQL dump
+$username = "u242005246_urbandesign";
+$password = "Urbandesign@123";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
