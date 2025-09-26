@@ -12,7 +12,7 @@ echo '<urlset
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">' . PHP_EOL;
 
-echo '<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->' . PHP_EOL;
+
 
 // Static URLs
 $base_url = "https://theurbandesign.in/";
@@ -87,4 +87,3 @@ while ($row = mysqli_fetch_array($select)) {
 // }
 
 echo '</urlset>';
-?>
