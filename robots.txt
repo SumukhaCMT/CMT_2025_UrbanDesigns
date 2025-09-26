@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://theurbandesign.in/sitemap.xml
+Sitemap: https://theurbandesign.in/sitemap.php
