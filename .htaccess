@@ -2,7 +2,7 @@
     RewriteEngine On
     RewriteBase /
   
-    RewriteRule ^sitemap\-xmI$ sitemap.php [L]
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
     RewriteRule ^sitemap$ sitemap.php [L]
 
     # Rule 1: Externally redirect "/index.php" to "/"
