@@ -1,97 +1,63 @@
 <?php
-// Clean start - prevent any output
-if (ob_get_level())
-    ob_end_clean();
-ob_start();
-
-// Suppress all errors for clean XML output
-error_reporting(0);
-ini_set('display_errors', 0);
-
-// Include database
+header('Content-Type: application/xml; charset=UTF-8');
 include('db.php');
 
-// Set headers
-header('Content-Type: application/xml; charset=UTF-8');
-header('Cache-Control: no-cache');
-
-// Generate XML content
-$xml = '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
-$xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
 $base_url = "https://theurbandesign.in/";
+$current_date = date('c');
 
 // Static pages
 $static_pages = [
-    '' => '1.00',
-    'index' => '0.80',
-    'about-us' => '0.80',
-    'contact-us' => '0.80'
+    '',
+    'index',
+    'about-us',
+    'contact-us',
+    'services',
+    'portfolio'
 ];
 
-foreach ($static_pages as $page => $priority) {
-    $xml .= '  <url>' . "\n";
-    $xml .= '    <loc>' . $base_url . $page . '</loc>' . "\n";
-    $xml .= '    <lastmod>' . date('c') . '</lastmod>' . "\n";
-    $xml .= '    <priority>' . $priority . '</priority>' . "\n";
-    $xml .= '  </url>' . "\n";
+foreach ($static_pages as $page) {
+    echo '<url>';
+    echo '<loc>' . $base_url . $page . '</loc>';
+    echo '<lastmod>' . $current_date . '</lastmod>';
+    echo '<priority>0.80</priority>';
+    echo '</url>';
 }
 
-// Add dynamic pages if database connection works
-if (isset($connection) && $connection && !mysqli_connect_error()) {
-
-    // Portfolio pages
-    $result = mysqli_query($connection, "SELECT slug, updated_at FROM portfolio WHERE status = 'active' ORDER BY updated_at DESC");
-    if ($result) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            if (!empty($row['slug'])) {
-                $xml .= '  <url>' . "\n";
-                $xml .= '    <loc>' . $base_url . 'portfolio/' . htmlspecialchars($row['slug']) . '</loc>' . "\n";
-                $xml .= '    <lastmod>' . date('c', strtotime($row['updated_at'])) . '</lastmod>' . "\n";
-                $xml .= '    <changefreq>weekly</changefreq>' . "\n";
-                $xml .= '    <priority>0.80</priority>' . "\n";
-                $xml .= '  </url>' . "\n";
-            }
-        }
-        mysqli_free_result($result);
-    }
-
-    // Product pages
-    $result = mysqli_query($connection, "SELECT slug, updated_at FROM products WHERE status = 'active' ORDER BY updated_at DESC");
-    if ($result) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            if (!empty($row['slug'])) {
-                $xml .= '  <url>' . "\n";
-                $xml .= '    <loc>' . $base_url . 'products/' . htmlspecialchars($row['slug']) . '</loc>' . "\n";
-                $xml .= '    <lastmod>' . date('c', strtotime($row['updated_at'])) . '</lastmod>' . "\n";
-                $xml .= '    <changefreq>weekly</changefreq>' . "\n";
-                $xml .= '    <priority>0.80</priority>' . "\n";
-                $xml .= '  </url>' . "\n";
-            }
-        }
-        mysqli_free_result($result);
-    }
-
-    // Service pages  
-    $result = mysqli_query($connection, "SELECT redirection_link, updated_at FROM service WHERE status = 'active' ORDER BY updated_at DESC");
-    if ($result) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            if (!empty($row['redirection_link'])) {
-                $xml .= '  <url>' . "\n";
-                $xml .= '    <loc>' . $base_url . 'services/' . htmlspecialchars($row['redirection_link']) . '</loc>' . "\n";
-                $xml .= '    <lastmod>' . date('c', strtotime($row['updated_at'])) . '</lastmod>' . "\n";
-                $xml .= '    <changefreq>weekly</changefreq>' . "\n";
-                $xml .= '    <priority>0.80</priority>' . "\n";
-                $xml .= '  </url>' . "\n";
-            }
-        }
-        mysqli_free_result($result);
-    }
+// Portfolio pages
+$query = "SELECT slug, updated_at FROM portfolio WHERE status = 'active'";
+$result = mysqli_query($connection, $query);
+while ($row = mysqli_fetch_array($result)) {
+    echo '<url>';
+    echo '<loc>' . $base_url . 'portfolio/' . $row['slug'] . '</loc>';
+    echo '<lastmod>' . date('c', strtotime($row['updated_at'])) . '</lastmod>';
+    echo '<priority>0.80</priority>';
+    echo '</url>';
 }
 
-$xml .= '</urlset>';
+// Product pages
+$query = "SELECT slug, updated_at FROM products WHERE status = 'active'";
+$result = mysqli_query($connection, $query);
+while ($row = mysqli_fetch_array($result)) {
+    echo '<url>';
+    echo '<loc>' . $base_url . 'products/' . $row['slug'] . '</loc>';
+    echo '<lastmod>' . date('c', strtotime($row['updated_at'])) . '</lastmod>';
+    echo '<priority>0.80</priority>';
+    echo '</url>';
+}
 
-// Clean output and send XML
-ob_clean();
-echo $xml;
-exit;
+// Service pages
+$query = "SELECT redirection_link, updated_at FROM service WHERE status = 'active'";
+$result = mysqli_query($connection, $query);
+while ($row = mysqli_fetch_array($result)) {
+    echo '<url>';
+    echo '<loc>' . $base_url . 'services/' . $row['redirection_link'] . '</loc>';
+    echo '<lastmod>' . date('c', strtotime($row['updated_at'])) . '</lastmod>';
+    echo '<priority>0.80</priority>';
+    echo '</url>';
+}
+
+echo '</urlset>';
+?>
