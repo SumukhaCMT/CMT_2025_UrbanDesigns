@@ -21,10 +21,7 @@ $static_urls = [
     ['loc' => '', 'priority' => '1.00'],
     ['loc' => 'index', 'priority' => '0.80'],
     ['loc' => 'about-us', 'priority' => '0.80'],
-    ['loc' => 'contact-us', 'priority' => '0.80'],
-    ['loc' => 'portfolio/', 'priority' => '0.80'],
-    ['loc' => 'products/', 'priority' => '0.80'],
-    ['loc' => 'services/', 'priority' => '0.80']
+    ['loc' => 'contact-us', 'priority' => '0.80']
 ];
 
 foreach ($static_urls as $url) {
