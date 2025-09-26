@@ -12,7 +12,7 @@ echo '<urlset
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">' . PHP_EOL;
 
-echo '<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->' . PHP_EOL;
+
 
 // Static URLs
 $base_url = "https://theurbandesign.in/";
@@ -37,7 +37,6 @@ $select = mysqli_query($connection, "SELECT * FROM `portfolio` ORDER BY `updated
 while ($row = mysqli_fetch_array($select)) {
     $c_url = $row["slug"];
     $cdate = date("c", strtotime($row['updated_at']));
-
     echo '<url>' . PHP_EOL;
     echo '  <loc>' . $base_url . 'portfolio/' . $c_url . '</loc>' . PHP_EOL;
     echo '  <lastmod>' . $cdate . '</lastmod>' . PHP_EOL;
@@ -58,6 +57,7 @@ while ($row = mysqli_fetch_array($select)) {
     echo '  <priority>0.80</priority>' . PHP_EOL;
     echo '</url>' . PHP_EOL;
 }
+
 $select = mysqli_query($connection, "SELECT * FROM `service` ORDER BY `updated_at` DESC");
 while ($row = mysqli_fetch_array($select)) {
     $c_url = $row["redirection_link"];
@@ -71,5 +71,19 @@ while ($row = mysqli_fetch_array($select)) {
     echo '</url>' . PHP_EOL;
 }
 
+
+// $select = mysqli_query($connection, "SELECT * FROM `job` ORDER BY `up_date` DESC");
+// while ($row = mysqli_fetch_array($select)) {
+//   $cname = $row["sname"];
+//     $service_url = $row["curl"];
+//     $cdate = date("c", strtotime($row['up_date']));
+
+//     echo '<url>' . PHP_EOL;
+//     echo '<loc>' . $base_url . 'job/' . $service_url . '</loc>' . PHP_EOL;
+//     echo '<lastmod>' . $cdate . '</lastmod>' . PHP_EOL;
+//     echo '<changefreq>weekly</changefreq>' . PHP_EOL;
+//     echo '<priority>0.80</priority>' . PHP_EOL;
+//     echo '</url>' . PHP_EOL;
+// }
+
 echo '</urlset>';
-?>
